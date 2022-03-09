@@ -9,7 +9,7 @@ import sys
 try:
     source_image = cv2.imread(sys.argv[1])
 except:
-    source_image = cv2.imread('black_cat.jpg')
+    source_image = cv2.imread('download.jpeg')
 prediction = 'n.a.'
 
 # checking whether the training data is ready
